@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js" defer></script>
+    <title>Tic-Tac-Toe</title>
+    <!-- <script src="script.js" defer></script> -->
+    <script src="tic-tac-toe.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
-        <div class="game-container">
-
+        <h1 class="game-title">Tic Tac Toe</h1>
+        <div class="wrapper-game">
+            <div class="score-count">
+                <h1>Player 1's Score</h1>
+                <h2 class="player1score">0</h2>
+            </div>
+            <div class="game-container"></div>
+            <div class="score-count">
+                <h1>Player 2's Score</h1>
+                <h2 class="player2score">0</h2>
+            </div>
         </div>
+        <dialog class="game-result">
+        </dialog>
     </div>
-
+    
 </body>
 </html>
